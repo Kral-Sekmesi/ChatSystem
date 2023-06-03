@@ -1,8 +1,8 @@
 // Define the URL of the website you want to make the request to
-const url = 'http://kral-sekmesi.glitch.me';
+const url = 'http://homurvegomur.github.io';
 
 // Define the endpoint or route you want to connect to
-const endpoint = '/'; // Replace with the actual endpoint
+const endpoint = '/tester'; // Replace with the actual endpoint
 
 // Define the data you want to send to the chat server (if any)
 const requestData = {
