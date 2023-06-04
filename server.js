@@ -1,4 +1,4 @@
-const a = require("./ping/ping.js");
+const a = require("./ping/pinger.js");
 const express = require("./express.js");
 const Express = require("express");
 const chat = require("./chat.js");
