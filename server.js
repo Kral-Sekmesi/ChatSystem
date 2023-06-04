@@ -2,6 +2,7 @@ const ping = require("./ping.js");
 const express = require("./express.js");
 const Express = require("express");
 const chat = require("./chat.js");
+const pong = require("./pong/pong.js");
 
 document.addEventListener("DOMContentLoaded", function() {
     var statusElement = document.getElementById("status");
