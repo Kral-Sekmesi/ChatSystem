@@ -5,6 +5,7 @@ const chat = require("./chat.js");
 const pong = require("./pong/pong.js");
 const status = require("./status.js");
 const client = require("./client/discord.js");
+const log = require("./chatLogs.js");
 
 document.addEventListener("DOMContentLoaded", function() {
     var statusElement = document.getElementById("status");
