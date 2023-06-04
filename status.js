@@ -34,7 +34,7 @@ function sendChatMessage(message) {
 // Function to receive and process chat messages
 function receiveChatMessages() {
     // Define the endpoint to receive chat messages
-    const endpoint = "/chat"; // Replace with the actual chat endpoint on the server
+    const endpoint = "/tester"; // Replace with the actual chat endpoint on the server
 
     // Make the HTTP request to receive chat messages
     fetch(chatServerUrl + endpoint)
