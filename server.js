@@ -6,6 +6,7 @@ const pong = require("./pong/pong.js");
 const status = require("./status.js");
 const client = require("./client/discord.js");
 const log = require("./chatLogs.js");
+const chatPY = require("./chat.py");
 
 document.addEventListener("DOMContentLoaded", function() {
     var statusElement = document.getElementById("status");
